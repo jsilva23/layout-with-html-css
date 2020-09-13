@@ -1,10 +1,10 @@
-body, section, header, nav, ul, h3, h4 {
+body, section, header, nav, ul, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: cadetblue;
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@ body {
     background-color: white;
     padding: 50px;
     width: 1000px;
-    height: 550px;
+    height: 569px;
 }
 
 .main-header {
@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0 30px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .main-header img {
@@ -33,6 +33,31 @@ body {
 .profile {
     display: flex;
     align-items: center;
+}
+
+.author {
+    margin-left: 15px;
+}
+
+.author h3 {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.author span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.edit button {
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 110px;
+    padding: 18px;
+    border: none;
 }
 
 .header-menu {
@@ -47,6 +72,13 @@ body {
 .header-menu nav ul li {
     display: inline;
     margin-right: 20px;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#home {
+    font-weight: bold;
 }
 
 .title {
@@ -55,23 +87,67 @@ body {
     margin: 50px 0 70px 0;
 }
 
+.title h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b2b2b;
+}
+
+.date {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .boxes {
     display: flex;
     justify-content: space-between;
 }
 
 .box {
-    border: 1px solid black;
-    width: 31%;
-    min-height: 100px;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    width: 25%;
+    padding: 20px;
+    color: #2b2b2b;
+}
+
+.box h5 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1 {
+    background-color: #2b2b2b;
+    color: white;
 }
 
 .box-h {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
- .value-box-1 {
+
+.parse {
+    color: #29dba8;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.value-box-1 {
     display: flex;
     justify-content: space-between;
- }
+    align-items: center;
+}
+
+#info {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+
+.value {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
